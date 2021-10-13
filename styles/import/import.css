@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+:root {
+  --BrightOrange: hsl(31, 77%, 52%);
+  --DarkCyan: hsl(184, 100%, 22%);
+  --VeryDarkCyan: hsl(179, 100%, 13%);
+  --TransparentWhiteParagraph: hsla(0, 0%, 100%, 0.75);
+  --VeryLightGrayBackgroundHeadingsButtons: hsl(0, 0%, 95%);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 15px;
+  position: relative;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-card {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container-sedans {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: var(--BrightOrange);
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.container-sedans section.sedans {
+  padding: 2rem;
+}
+
+.container-sedans section.sedans .middle {
+  margin: 2rem 0 0 0;
+}
+
+.container-sedans section.sedans .middle .title h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: var(--VeryLightGrayBackgroundHeadingsButtons);
+  letter-spacing: 0.02rem;
+}
+
+.container-sedans section.sedans .middle .desc {
+  margin: 1.5rem 0 0 0;
+  line-height: 1.4rem;
+}
+
+.container-sedans section.sedans .middle .desc p {
+  font-size: 0.9em;
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--TransparentWhiteParagraph);
+}
+
+.container-sedans section.sedans .bottom {
+  margin: 2.8rem 0 1.2rem 0;
+}
+
+.container-sedans section.sedans .bottom a {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 700;
+  padding: 0.8rem 1.6rem;
+  color: var(--BrightOrange);
+  background-color: var(--VeryLightGrayBackgroundHeadingsButtons);
+  border: none;
+  border-radius: 2rem;
+  letter-spacing: 0.04rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container-sedans section.sedans .bottom a:hover {
+  border: 2px solid var(--VeryLightGrayBackgroundHeadingsButtons);
+  color: var(--VeryLightGrayBackgroundHeadingsButtons);
+  background-color: transparent;
+}
+
+.container-suvs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: var(--DarkCyan);
+}
+
+.container-suvs section.suvs {
+  padding: 2rem;
+}
+
+.container-suvs section.suvs .middle {
+  margin: 2rem 0 0 0;
+}
+
+.container-suvs section.suvs .middle .title h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: var(--VeryLightGrayBackgroundHeadingsButtons);
+  letter-spacing: 0.02rem;
+}
+
+.container-suvs section.suvs .middle .desc {
+  margin: 1.5rem 0 0 0;
+  line-height: 1.4rem;
+}
+
+.container-suvs section.suvs .middle .desc p {
+  font-size: 0.9em;
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--TransparentWhiteParagraph);
+}
+
+.container-suvs section.suvs .bottom {
+  margin: 2.8rem 0 1.2rem 0;
+}
+
+.container-suvs section.suvs .bottom a {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 700;
+  padding: 0.8rem 1.6rem;
+  color: var(--DarkCyan);
+  background-color: var(--VeryLightGrayBackgroundHeadingsButtons);
+  border: none;
+  border-radius: 2rem;
+  letter-spacing: 0.04rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container-suvs section.suvs .bottom a:hover {
+  border: 2px solid var(--VeryLightGrayBackgroundHeadingsButtons);
+  color: var(--VeryLightGrayBackgroundHeadingsButtons);
+  background-color: transparent;
+}
+
+.container-luxury {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: var(--VeryDarkCyan);
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.container-luxury section.luxury {
+  padding: 2rem;
+}
+
+.container-luxury section.luxury .middle {
+  margin: 2rem 0 0 0;
+}
+
+.container-luxury section.luxury .middle .title h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: var(--VeryLightGrayBackgroundHeadingsButtons);
+  letter-spacing: 0.02rem;
+}
+
+.container-luxury section.luxury .middle .desc {
+  margin: 1.5rem 0 0 0;
+  line-height: 1.4rem;
+}
+
+.container-luxury section.luxury .middle .desc p {
+  font-size: 0.9em;
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--TransparentWhiteParagraph);
+}
+
+.container-luxury section.luxury .bottom {
+  margin: 2.8rem 0 1.2rem 0;
+}
+
+.container-luxury section.luxury .bottom a {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 700;
+  padding: 0.8rem 1.6rem;
+  color: var(--VeryDarkCyan);
+  background-color: var(--VeryLightGrayBackgroundHeadingsButtons);
+  border: none;
+  border-radius: 2rem;
+  letter-spacing: 0.04rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container-luxury section.luxury .bottom a:hover {
+  border: 2px solid var(--VeryLightGrayBackgroundHeadingsButtons);
+  color: var(--VeryLightGrayBackgroundHeadingsButtons);
+  background-color: transparent;
+}
+
+@media only screen and (min-width: 375px) {
+  main {
+    width: 318px;
+  }
+  main .container-card .container-sedans section.sedans {
+    padding-right: 0;
+  }
+  main .container-card .container-sedans section.sedans .middle .desc {
+    padding: 0 3.3rem 0 0;
+  }
+  main .container-card .container-suvs section.suvs {
+    padding-right: 0;
+  }
+  main .container-card .container-suvs section.suvs .middle .desc {
+    padding: 0 3.3rem 0 0;
+  }
+  main .container-card .container-luxury section.luxury {
+    padding-right: 0;
+  }
+  main .container-card .container-luxury section.luxury .middle .desc {
+    padding: 0 3.3rem 0 0;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  main {
+    width: 800px;
+    height: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    background-color: var(--VeryLightGrayBackgroundHeadingsButtons);
+    -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  }
+  main .container-card {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  main .container-card .container-sedans {
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+  main .container-card .container-sedans section.sedans .middle .desc {
+    padding: 0 2rem 0 0;
+  }
+  main .container-card .container-suvs section.suvs .middle .desc {
+    padding: 0 2rem 0 0;
+  }
+  main .container-card .container-luxury {
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+  main .container-card .container-luxury section.luxury .middle .desc {
+    padding: 0 2rem 0 0;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  main {
+    background-color: var(--VeryLightGrayBackgroundHeadingsButtons);
+    -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  }
+}
+/*# sourceMappingURL=import.css.map */

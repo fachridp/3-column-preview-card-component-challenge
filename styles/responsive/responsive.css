@@ -1,0 +1,85 @@
+@media only screen and (min-width: 375px) {
+  main {
+    width: 318px;
+  }
+  main .container-card .container-sedans section.sedans {
+    padding-right: 0;
+  }
+  main .container-card .container-sedans section.sedans .middle .desc {
+    padding: 0 3.3rem 0 0;
+  }
+  main .container-card .container-suvs section.suvs {
+    padding-right: 0;
+  }
+  main .container-card .container-suvs section.suvs .middle .desc {
+    padding: 0 3.3rem 0 0;
+  }
+  main .container-card .container-luxury section.luxury {
+    padding-right: 0;
+  }
+  main .container-card .container-luxury section.luxury .middle .desc {
+    padding: 0 3.3rem 0 0;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  main {
+    width: 800px;
+    height: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    background-color: var(--VeryLightGrayBackgroundHeadingsButtons);
+    -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  }
+  main .container-card {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  main .container-card .container-sedans {
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+  main .container-card .container-sedans section.sedans .middle .desc {
+    padding: 0 2rem 0 0;
+  }
+  main .container-card .container-suvs section.suvs .middle .desc {
+    padding: 0 2rem 0 0;
+  }
+  main .container-card .container-luxury {
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+  main .container-card .container-luxury section.luxury .middle .desc {
+    padding: 0 2rem 0 0;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  main {
+    background-color: var(--VeryLightGrayBackgroundHeadingsButtons);
+    -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

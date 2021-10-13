@@ -1,0 +1,110 @@
+@media only screen and (min-width: 375px) {
+  main {
+    width: 318px;
+
+    .container-card {
+      .container-sedans {
+        section.sedans {
+          padding-right: 0;
+
+          .middle {
+            .desc {
+              padding: 0 3.3rem 0 0;
+            }
+          }
+        }
+      }
+
+      .container-suvs {
+        section.suvs {
+          padding-right: 0;
+
+          .middle {
+            .desc {
+              padding: 0 3.3rem 0 0;
+            }
+          }
+        }
+      }
+
+      .container-luxury {
+        section.luxury {
+          padding-right: 0;
+
+          .middle {
+            .desc {
+              padding: 0 3.3rem 0 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  main {
+    width: 800px;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--VeryLightGrayBackgroundHeadingsButtons);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+
+    .container-card {
+      flex-direction: row;
+
+      .container-sedans {
+        border-radius: 0.5rem 0 0 0.5rem;
+
+        section.sedans {
+          .middle {
+            .desc {
+              padding: 0 2rem 0 0;
+            }
+          }
+        }
+      }
+
+      .container-suvs {
+        section.suvs {
+          .middle {
+            .desc {
+              padding: 0 2rem 0 0;
+            }
+          }
+        }
+      }
+
+      .container-luxury {
+        border-radius: 0 0.5rem 0.5rem 0;
+
+        section.luxury {
+          .middle {
+            .desc {
+              padding: 0 2rem 0 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  main {
+    background-color: var(--VeryLightGrayBackgroundHeadingsButtons);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  }
+}

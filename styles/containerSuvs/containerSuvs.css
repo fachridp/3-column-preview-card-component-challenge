@@ -1,0 +1,56 @@
+.container-suvs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: var(--DarkCyan);
+}
+
+.container-suvs section.suvs {
+  padding: 2rem;
+}
+
+.container-suvs section.suvs .middle {
+  margin: 2rem 0 0 0;
+}
+
+.container-suvs section.suvs .middle .title h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: var(--VeryLightGrayBackgroundHeadingsButtons);
+  letter-spacing: 0.02rem;
+}
+
+.container-suvs section.suvs .middle .desc {
+  margin: 1.5rem 0 0 0;
+  line-height: 1.4rem;
+}
+
+.container-suvs section.suvs .middle .desc p {
+  font-size: 0.9em;
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--TransparentWhiteParagraph);
+}
+
+.container-suvs section.suvs .bottom {
+  margin: 2.8rem 0 1.2rem 0;
+}
+
+.container-suvs section.suvs .bottom a {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 700;
+  padding: 0.8rem 1.6rem;
+  color: var(--DarkCyan);
+  background-color: var(--VeryLightGrayBackgroundHeadingsButtons);
+  border: none;
+  border-radius: 2rem;
+  letter-spacing: 0.04rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container-suvs section.suvs .bottom a:hover {
+  border: 2px solid var(--VeryLightGrayBackgroundHeadingsButtons);
+  color: var(--VeryLightGrayBackgroundHeadingsButtons);
+  background-color: transparent;
+}
+/*# sourceMappingURL=containerSuvs.css.map */

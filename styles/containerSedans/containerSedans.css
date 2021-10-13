@@ -1,0 +1,57 @@
+.container-sedans {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: var(--BrightOrange);
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.container-sedans section.sedans {
+  padding: 2rem;
+}
+
+.container-sedans section.sedans .middle {
+  margin: 2rem 0 0 0;
+}
+
+.container-sedans section.sedans .middle .title h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: var(--VeryLightGrayBackgroundHeadingsButtons);
+  letter-spacing: 0.02rem;
+}
+
+.container-sedans section.sedans .middle .desc {
+  margin: 1.5rem 0 0 0;
+  line-height: 1.4rem;
+}
+
+.container-sedans section.sedans .middle .desc p {
+  font-size: 0.9em;
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--TransparentWhiteParagraph);
+}
+
+.container-sedans section.sedans .bottom {
+  margin: 2.8rem 0 1.2rem 0;
+}
+
+.container-sedans section.sedans .bottom a {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 700;
+  padding: 0.8rem 1.6rem;
+  color: var(--BrightOrange);
+  background-color: var(--VeryLightGrayBackgroundHeadingsButtons);
+  border: none;
+  border-radius: 2rem;
+  letter-spacing: 0.04rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container-sedans section.sedans .bottom a:hover {
+  border: 2px solid var(--VeryLightGrayBackgroundHeadingsButtons);
+  color: var(--VeryLightGrayBackgroundHeadingsButtons);
+  background-color: transparent;
+}
+/*# sourceMappingURL=containerSedans.css.map */

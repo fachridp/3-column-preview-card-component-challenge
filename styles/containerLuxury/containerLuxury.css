@@ -1,0 +1,57 @@
+.container-luxury {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: var(--VeryDarkCyan);
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.container-luxury section.luxury {
+  padding: 2rem;
+}
+
+.container-luxury section.luxury .middle {
+  margin: 2rem 0 0 0;
+}
+
+.container-luxury section.luxury .middle .title h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: var(--VeryLightGrayBackgroundHeadingsButtons);
+  letter-spacing: 0.02rem;
+}
+
+.container-luxury section.luxury .middle .desc {
+  margin: 1.5rem 0 0 0;
+  line-height: 1.4rem;
+}
+
+.container-luxury section.luxury .middle .desc p {
+  font-size: 0.9em;
+  font-family: "Lexend Deca", sans-serif;
+  color: var(--TransparentWhiteParagraph);
+}
+
+.container-luxury section.luxury .bottom {
+  margin: 2.8rem 0 1.2rem 0;
+}
+
+.container-luxury section.luxury .bottom a {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 700;
+  padding: 0.8rem 1.6rem;
+  color: var(--VeryDarkCyan);
+  background-color: var(--VeryLightGrayBackgroundHeadingsButtons);
+  border: none;
+  border-radius: 2rem;
+  letter-spacing: 0.04rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container-luxury section.luxury .bottom a:hover {
+  border: 2px solid var(--VeryLightGrayBackgroundHeadingsButtons);
+  color: var(--VeryLightGrayBackgroundHeadingsButtons);
+  background-color: transparent;
+}
+/*# sourceMappingURL=containerLuxury.css.map */
